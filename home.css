@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url(banner2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.container-fluid {
+	width: 60%;
+	height: 80%;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.bg-1{
+	background: rgba(255,255,255, 0.6);
+	opacity: 1;
+	border-radius: 50px;
+	color:white;
+	text-shadow: 2px 2px 5px black;
+}
+.mockup{
+	width: 165px;
+	height: 342px;
+	margin-left: 42%;
+	margin-top: 16%;
+	transform: scale(2);
+	background-image: url(mockup.png);
+}
+.video{
+	margin-top: 20px;
+	height: 315px;
+	width: 150px;
+	border-radius: 20px;
+	transition: 5s;
+}
